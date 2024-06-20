@@ -5,6 +5,7 @@
 3. `float64`
 4. `string`
 5. `bool`
+6. `err`
 
 # Type inference & Explicit type annotation 
 
