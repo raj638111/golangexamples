@@ -1,7 +1,5 @@
 # Create custom struct using `type` & `struct`
 
-[[_TOC_]]
-
 ### Define a struct & create a struct instance
 
 ```go
