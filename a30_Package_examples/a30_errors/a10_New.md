@@ -1,6 +1,4 @@
-# `errors`
-
-## `New`
+# `New`
 
 Used to create a new error
 
