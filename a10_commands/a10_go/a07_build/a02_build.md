@@ -13,6 +13,14 @@ ls
 Hello world!%
 ```
 
+# Provide `main` function location
+If the main function is in some other location, provide the below command
+```sh
+go build -o bin/ ./path/to/file/containing/main/function
+```
+where, 
+bin: Is the location where the executable will be created
+
 # `main` package & function
 
 In order to create an executable, one of the go file should be part of `main`

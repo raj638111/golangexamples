@@ -4,7 +4,7 @@
 ### How to import your own package?
 
 ```go
-import modulePath/packageName
+import <modulePath>/<packageName>
 ```
 
 Here `modulePath` is module path available in `go.mod` file. Example,

@@ -2,7 +2,7 @@
 # Command to install a new package (Third party package)
 
 ```bash
-go get <package name>
+go get <package name>@<version>
 
 Example:
 
@@ -19,6 +19,10 @@ cat go.sum
 github.com/Pallinder/go-randomdata v1.2.0 h1:DZ41wBchNRb/0GfsePLiSwb0PHZmT67XY00lCDlaYPg=
 github.com/Pallinder/go-randomdata v1.2.0/go.mod h1:yHmJgulpD2Nfrm0cR9tI/+oAgRqCQQixsA8HyRZfV9Y=
 ```
+
+# Add more verbose to the `go get` command using `-x`
+
+go get -x <package name>@<version>
 
 # How to use the methods in third party package in the code
 
